@@ -1,8 +1,24 @@
+.logo-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
 
-body{font-family:Arial,sans-serif;margin:0;background:#f7f9fc}
-header{background:#1f4e79;color:white;text-align:center;padding:20px}
-nav{background:#163a5c;padding:10px;text-align:center}
-nav a{color:white;text-decoration:none;margin:0 8px}
-.hero{padding:40px;text-align:center;background:white}
-.card{max-width:900px;margin:20px auto;background:white;padding:20px;border-radius:8px}
-footer{text-align:center;padding:20px}
+.logo{
+    width:100px;
+    height:auto;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.card{
+    max-width:900px;
+    margin:20px auto;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+}
