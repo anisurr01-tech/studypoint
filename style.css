@@ -1,7 +1,19 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f7f9fc;
+}
+
+header{
+    background:#1f4e79;
+    color:white;
+    padding:20px;
+}
+
 .logo-container{
     display:flex;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
     gap:15px;
 }
 
@@ -10,9 +22,23 @@
     height:auto;
 }
 
+nav{
+    background:#163a5c;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+
 .hero{
     text-align:center;
-    padding:40px 20px;
+    padding:50px 20px;
+    background:white;
 }
 
 .card{
@@ -21,4 +47,13 @@
     padding:20px;
     background:white;
     border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1f4e79;
+    color:white;
+    margin-top:30px;
 }
